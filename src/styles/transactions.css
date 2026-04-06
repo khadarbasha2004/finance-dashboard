@@ -1,0 +1,81 @@
+/* ================= HEADER ================= */
+.transaction-header {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr 2fr;
+  padding: 10px 15px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+/* ================= ITEM CARD ================= */
+.transaction-item {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr 2fr;
+  align-items: center;
+  background: #ffffff;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+/* ✨ Hover effect */
+.transaction-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* ================= AMOUNT ================= */
+.income {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.expense {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* ================= ACTIONS ================= */
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* 🔥 CLEAN BUTTON STYLE */
+.edit-btn {
+  background: #3b82f6;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.delete-btn {
+  background: #ef4444;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.edit-btn:hover {
+  background: #2563eb;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+.add-btn {
+  background: #6366f1 !important;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: none;
+}
+
+.add-btn:hover {
+  background: #4f46e5;
+  transform: none;
+}
