@@ -1,16 +1,108 @@
-# React + Vite
+💰 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Finance Dashboard UI built to visualize financial data, manage transactions, and demonstrate role-based access control (RBAC). This project focuses on frontend design, component structure, and user experience.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://your-project.vercel.app
+ (update with your link)
 
-## React Compiler
+📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://github.com/khadarbasha2004/finance-dashboard
 
-## Expanding the ESLint configuration
+📌 Features
+📊 Dashboard Overview
+Summary cards for:
+Total Balance
+Income
+Expenses
+Clean and intuitive layout
+💸 Transactions
+Add, view, and manage transactions
+Categorized entries (Income / Expense)
+Dynamic transaction list
+📈 Insights
+Visual representation of financial data
+Charts for better understanding of spending patterns
+🔐 Role-Based Access Control (RBAC)
+Admin
+Full access to dashboard, transactions, and insights
+User
+Limited access (view-only or restricted actions)
+📱 Responsive Design
+Works across:
+Desktop 💻
+Tablet 📱
+Mobile 📲
+🛠️ Tech Stack
+Frontend: React.js
+Styling: CSS (Custom / Flexbox / Grid)
+State Management: React Hooks (useState, useEffect)
+Deployment: Vercel
+📁 Project Structure
+finance-dashboard/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Sidebar.js
+│   │   ├── Header.js
+│   │   ├── Dashboard.js
+│   │   ├── Transactions.js
+│   │   └── Insights.js
+│   │
+│   ├── styles/
+│   │   ├── layout.css
+│   │   └── components.css
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+⚙️ Installation & Setup
+Clone the repository
+git clone https://github.com/khadarbasha2004/finance-dashboard.git
+Navigate to project folder
+cd finance-dashboard
+Install dependencies
+npm install
+Run the project
+npm start
+🎯 Assignment Objective
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was built as part of a Frontend Developer Intern assessment, focusing on:
+
+UI/UX Design
+Component-based architecture
+State management
+Responsive layouts
+Clean and maintainable code
+📊 Evaluation Criteria Covered
+
+✅ Design & Creativity
+✅ Responsiveness
+✅ Functionality
+✅ User Experience
+✅ Code Quality
+✅ State Management
+
+🔮 Future Improvements
+Backend integration (Node.js / Firebase)
+Authentication system
+Real-time data updates
+Advanced analytics & charts
+Dark mode toggle 🌙
+👨‍💻 Author
+
+Khaderbasha
+Frontend Developer (Aspiring)
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repo
+🍴 Fork it
+📢 Share it
